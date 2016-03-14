@@ -8,8 +8,8 @@ public class RobotAPI {
 	
 	public static void setInitialPosition(int x, int y, char direction) {
 		Position currentPosition = new Position();
-		currentPosition.setCurrentX(0);
-		currentPosition.setCurrentY(0);
+		currentPosition.setCurrentX(x);
+		currentPosition.setCurrentY(y);
 		currentPosition.setDirection(getDirection(direction));
 		robot.setCurrentPosition(currentPosition);
 	}
