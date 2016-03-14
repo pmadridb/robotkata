@@ -17,7 +17,7 @@ public class Matrix {
 			x--;
 			break;
 		case SOUTH:
-			x++;;
+			x++;
 			break;
 		case WEST:
 			y--;
